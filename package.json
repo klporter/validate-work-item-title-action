@@ -1,0 +1,24 @@
+{
+  "name": "validate-work-item-title-action",
+  "version": "1.0.0",
+  "description": "Validate that a GUS work number has been added to the title of the PR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klporter/validate-work-item-title-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klporter/validate-work-item-title-action/issues"
+  },
+  "homepage": "https://github.com/klporter/validate-work-item-title-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^3.0.0"
+  }
+}
