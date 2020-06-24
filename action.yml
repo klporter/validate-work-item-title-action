@@ -1,0 +1,5 @@
+name: 'Validate PR Title'
+description: 'Validate that a GUS work number has been added to the title of the PR'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
